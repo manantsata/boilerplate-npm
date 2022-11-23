@@ -60,5 +60,5 @@ app.use(function (err, req, res, next) {
 
 //Listen on port set in environment variable or default to 3000
 const listener = app.listen(function () {
-  console.log('Node.js ' + listener.adress());
+  console.log('app running');
 });
